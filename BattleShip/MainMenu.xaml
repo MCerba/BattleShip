@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="BattleShip.UsrCtrlMainMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BattleShip"
+             mc:Ignorable="d" 
+             d:DesignHeight="569" d:DesignWidth="454">
+	<Grid x:Name="MainMenu" HorizontalAlignment="Left" Height="569" Margin="0,0,0,0" VerticalAlignment="Top" Width="454">
+		<Button x:Name="NewGameBtn" Content="Start New Game" Margin="112,250,112,289" Background="#FFEAEAEA" Click="NewGameBtn_Click" FontWeight="Bold"/>
+        <Button x:Name="OptBtn" Content="Options" Margin="112,300,112,239" Background="#FFEAEAEA" Click="OptBtn_Click" FontWeight="Bold"/>
+		<Button x:Name="QuitBtn" Content="Quit Game" Margin="112,350,112,189" Background="#FFEAEAEA" Click="QuitBtn_Click" FontWeight="Bold"/>
+		<Button x:Name="ContinueBtn" Content="Continue" Margin="112,200,112,339" Background="#FFEAEAEA" IsEnabled="False" Click="ContinueBtn_Click" FontWeight="Bold"/>
+		<TextBox x:Name="UserNameTxt" Margin="112,250,112,289" TextWrapping="Wrap" Text="Enter your name and press Enter" KeyDown="UserNameTxt_KeyDown" HorizontalContentAlignment="Center" GotFocus="UserNameTxt_GotFocus" FontWeight="Bold" TextAlignment="Center" TextDecorations="{x:Null}"/>
+        <TextBlock x:Name="Display" HorizontalAlignment="Left" Margin="112,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="76" Width="230" TextAlignment="Center"/>
+    </Grid>
+</UserControl>

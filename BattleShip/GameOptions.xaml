@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="BattleShip.UsrCtrlGameOptions"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BattleShip"
+             mc:Ignorable="d" 
+             d:DesignHeight="569" d:DesignWidth="454">
+    <Grid>
+        <RadioButton x:Name="EasyBtn" Content="Easy Mode" Style= "{StaticResource {x:Type ToggleButton}}" GroupName="Difficulty"  Checked="EasyBtn_Checked" Margin="0,200,112,0" Background="#FFEAEAEA" HorizontalAlignment="Right" Width="230" Height="30" VerticalAlignment="Top" FontWeight="Bold"/>
+        <RadioButton x:Name="MediumBtn" Content="Normal Mode" Style= "{StaticResource {x:Type ToggleButton}}" GroupName="Difficulty" IsChecked="True" Checked="MediumBtn_Checked" Margin="0,250,112,0" Background="#FFEAEAEA" HorizontalAlignment="Right" Width="230" Height="30" VerticalAlignment="Top" FontWeight="Bold"/>
+        <RadioButton x:Name="HardBtn" Content="Hard Mode" Style= "{StaticResource {x:Type ToggleButton}}" GroupName="Difficulty" Checked="HardBtn_Checked" Margin="0,0,112,239" Background="#FFEAEAEA" HorizontalAlignment="Right" Width="230" FontWeight="Bold" Height="30" VerticalAlignment="Bottom"/>
+    </Grid>
+</UserControl>

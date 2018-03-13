@@ -1,0 +1,277 @@
+﻿<UserControl x:Class="BattleShip.UsrCtrlPlayGround"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BattleShip"
+             mc:Ignorable="d" 
+             d:DesignHeight="569" d:DesignWidth="454">
+    <Grid x:Name="SeparationGrd">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="284.5*"/>
+            <RowDefinition Height="284.5*"/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="EnemyGrd" Margin="137,11,53,9">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="Ey0x0" Grid.Column="0" Grid.Row="0" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey0x1" Grid.Column="1" Grid.Row="0" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey0x2" Grid.Column="2" Grid.Row="0" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey0x3" Grid.Column="3" Grid.Row="0" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey0x4" Grid.Column="4" Grid.Row="0" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey0x5" Grid.Column="5" Grid.Row="0" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey0x6" Grid.Column="6" Grid.Row="0" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey0x7" Grid.Column="7" Grid.Row="0" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey0x8" Grid.Column="8" Grid.Row="0" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey0x9" Grid.Column="9" Grid.Row="0" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey1x0" Grid.Column="0" Grid.Row="1" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey1x1" Grid.Column="1" Grid.Row="1" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey1x2" Grid.Column="2" Grid.Row="1" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey1x3" Grid.Column="3" Grid.Row="1" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey1x4" Grid.Column="4" Grid.Row="1" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey1x5" Grid.Column="5" Grid.Row="1" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey1x6" Grid.Column="6" Grid.Row="1" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey1x7" Grid.Column="7" Grid.Row="1" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey1x8" Grid.Column="8" Grid.Row="1" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey1x9" Grid.Column="9" Grid.Row="1" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey2x0" Grid.Column="0" Grid.Row="2" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey2x1" Grid.Column="1" Grid.Row="2" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey2x2" Grid.Column="2" Grid.Row="2" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey2x3" Grid.Column="3" Grid.Row="2" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey2x4" Grid.Column="4" Grid.Row="2" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey2x5" Grid.Column="5" Grid.Row="2" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey2x6" Grid.Column="6" Grid.Row="2" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey2x7" Grid.Column="7" Grid.Row="2" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey2x8" Grid.Column="8" Grid.Row="2" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey2x9" Grid.Column="9" Grid.Row="2" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey3x0" Grid.Column="0" Grid.Row="3" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey3x1" Grid.Column="1" Grid.Row="3" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey3x2" Grid.Column="2" Grid.Row="3" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey3x3" Grid.Column="3" Grid.Row="3" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey3x4" Grid.Column="4" Grid.Row="3" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey3x5" Grid.Column="5" Grid.Row="3" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey3x6" Grid.Column="6" Grid.Row="3" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey3x7" Grid.Column="7" Grid.Row="3" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey3x8" Grid.Column="8" Grid.Row="3" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey3x9" Grid.Column="9" Grid.Row="3" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey4x0" Grid.Column="0" Grid.Row="4" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey4x1" Grid.Column="1" Grid.Row="4" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey4x2" Grid.Column="2" Grid.Row="4" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey4x3" Grid.Column="3" Grid.Row="4" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey4x4" Grid.Column="4" Grid.Row="4" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey4x5" Grid.Column="5" Grid.Row="4" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey4x6" Grid.Column="6" Grid.Row="4" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey4x7" Grid.Column="7" Grid.Row="4" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey4x8" Grid.Column="8" Grid.Row="4" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey4x9" Grid.Column="9" Grid.Row="4" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey5x0" Grid.Column="0" Grid.Row="5" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey5x1" Grid.Column="1" Grid.Row="5" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey5x2" Grid.Column="2" Grid.Row="5" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey5x3" Grid.Column="3" Grid.Row="5" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey5x4" Grid.Column="4" Grid.Row="5" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey5x5" Grid.Column="5" Grid.Row="5" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey5x6" Grid.Column="6" Grid.Row="5" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey5x7" Grid.Column="7" Grid.Row="5" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey5x8" Grid.Column="8" Grid.Row="5" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey5x9" Grid.Column="9" Grid.Row="5" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey6x0" Grid.Column="0" Grid.Row="6" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey6x1" Grid.Column="1" Grid.Row="6" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey6x2" Grid.Column="2" Grid.Row="6" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey6x3" Grid.Column="3" Grid.Row="6" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey6x4" Grid.Column="4" Grid.Row="6" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey6x5" Grid.Column="5" Grid.Row="6" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey6x6" Grid.Column="6" Grid.Row="6" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey6x7" Grid.Column="7" Grid.Row="6" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey6x8" Grid.Column="8" Grid.Row="6" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey6x9" Grid.Column="9" Grid.Row="6" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey7x0" Grid.Column="0" Grid.Row="7" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey7x1" Grid.Column="1" Grid.Row="7" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey7x2" Grid.Column="2" Grid.Row="7" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey7x3" Grid.Column="3" Grid.Row="7" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey7x4" Grid.Column="4" Grid.Row="7" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey7x5" Grid.Column="5" Grid.Row="7" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey7x6" Grid.Column="6" Grid.Row="7" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey7x7" Grid.Column="7" Grid.Row="7" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey7x8" Grid.Column="8" Grid.Row="7" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey7x9" Grid.Column="9" Grid.Row="7" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey8x0" Grid.Column="0" Grid.Row="8" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey8x1" Grid.Column="1" Grid.Row="8" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey8x2" Grid.Column="2" Grid.Row="8" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey8x3" Grid.Column="3" Grid.Row="8" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey8x4" Grid.Column="4" Grid.Row="8" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey8x5" Grid.Column="5" Grid.Row="8" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey8x6" Grid.Column="6" Grid.Row="8" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey8x7" Grid.Column="7" Grid.Row="8" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey8x8" Grid.Column="8" Grid.Row="8" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey8x9" Grid.Column="9" Grid.Row="8" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey9x0" Grid.Column="0" Grid.Row="9" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey9x1" Grid.Column="1" Grid.Row="9" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey9x2" Grid.Column="2" Grid.Row="9" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey9x3" Grid.Column="3" Grid.Row="9" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey9x4" Grid.Column="4" Grid.Row="9" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey9x5" Grid.Column="5" Grid.Row="9" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey9x6" Grid.Column="6" Grid.Row="9" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey9x7" Grid.Column="7" Grid.Row="9" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey9x8" Grid.Column="8" Grid.Row="9" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+            <Label x:Name="Ey9x9" Grid.Column="9" Grid.Row="9" HorizontalContentAlignment="Center" MouseDown="HitMouseDown" BorderThickness="1" BorderBrush="Black" IsEnabled="false"/>
+        </Grid>
+        <Grid x:Name="PlayerGrid" Margin="137,12,53,8" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="My0x0" Grid.Column="0" Grid.Row="0" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My0x1" Grid.Column="1" Grid.Row="0" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My0x2" Grid.Column="2" Grid.Row="0" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My0x3" Grid.Column="3" Grid.Row="0" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My0x4" Grid.Column="4" Grid.Row="0" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My0x5" Grid.Column="5" Grid.Row="0" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My0x6" Grid.Column="6" Grid.Row="0" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My0x7" Grid.Column="7" Grid.Row="0" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My0x8" Grid.Column="8" Grid.Row="0" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My0x9" Grid.Column="9" Grid.Row="0" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My1x0" Grid.Column="0" Grid.Row="1" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My1x1" Grid.Column="1" Grid.Row="1" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My1x2" Grid.Column="2" Grid.Row="1" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My1x3" Grid.Column="3" Grid.Row="1" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My1x4" Grid.Column="4" Grid.Row="1" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My1x5" Grid.Column="5" Grid.Row="1" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My1x6" Grid.Column="6" Grid.Row="1" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My1x7" Grid.Column="7" Grid.Row="1" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My1x8" Grid.Column="8" Grid.Row="1" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My1x9" Grid.Column="9" Grid.Row="1" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My2x0" Grid.Column="0" Grid.Row="2" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My2x1" Grid.Column="1" Grid.Row="2" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My2x2" Grid.Column="2" Grid.Row="2" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My2x3" Grid.Column="3" Grid.Row="2" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My2x4" Grid.Column="4" Grid.Row="2" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My2x5" Grid.Column="5" Grid.Row="2" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My2x6" Grid.Column="6" Grid.Row="2" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My2x7" Grid.Column="7" Grid.Row="2" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My2x8" Grid.Column="8" Grid.Row="2" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My2x9" Grid.Column="9" Grid.Row="2" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My3x0" Grid.Column="0" Grid.Row="3" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My3x1" Grid.Column="1" Grid.Row="3" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My3x2" Grid.Column="2" Grid.Row="3" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My3x3" Grid.Column="3" Grid.Row="3" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My3x4" Grid.Column="4" Grid.Row="3" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My3x5" Grid.Column="5" Grid.Row="3" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My3x6" Grid.Column="6" Grid.Row="3" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My3x7" Grid.Column="7" Grid.Row="3" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My3x8" Grid.Column="8" Grid.Row="3" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My3x9" Grid.Column="9" Grid.Row="3" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My4x0" Grid.Column="0" Grid.Row="4" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My4x1" Grid.Column="1" Grid.Row="4" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My4x2" Grid.Column="2" Grid.Row="4" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My4x3" Grid.Column="3" Grid.Row="4" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My4x4" Grid.Column="4" Grid.Row="4" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My4x5" Grid.Column="5" Grid.Row="4" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My4x6" Grid.Column="6" Grid.Row="4" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My4x7" Grid.Column="7" Grid.Row="4" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My4x8" Grid.Column="8" Grid.Row="4" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My4x9" Grid.Column="9" Grid.Row="4" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My5x0" Grid.Column="0" Grid.Row="5" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My5x1" Grid.Column="1" Grid.Row="5" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My5x2" Grid.Column="2" Grid.Row="5" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My5x3" Grid.Column="3" Grid.Row="5" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My5x4" Grid.Column="4" Grid.Row="5" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My5x5" Grid.Column="5" Grid.Row="5" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My5x6" Grid.Column="6" Grid.Row="5" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My5x7" Grid.Column="7" Grid.Row="5" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My5x8" Grid.Column="8" Grid.Row="5" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My5x9" Grid.Column="9" Grid.Row="5" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My6x0" Grid.Column="0" Grid.Row="6" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My6x1" Grid.Column="1" Grid.Row="6" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My6x2" Grid.Column="2" Grid.Row="6" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My6x3" Grid.Column="3" Grid.Row="6" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My6x4" Grid.Column="4" Grid.Row="6" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My6x5" Grid.Column="5" Grid.Row="6" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My6x6" Grid.Column="6" Grid.Row="6" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My6x7" Grid.Column="7" Grid.Row="6" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My6x8" Grid.Column="8" Grid.Row="6" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My6x9" Grid.Column="9" Grid.Row="6" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My7x0" Grid.Column="0" Grid.Row="7" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My7x1" Grid.Column="1" Grid.Row="7" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My7x2" Grid.Column="2" Grid.Row="7" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My7x3" Grid.Column="3" Grid.Row="7" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My7x4" Grid.Column="4" Grid.Row="7" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My7x5" Grid.Column="5" Grid.Row="7" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My7x6" Grid.Column="6" Grid.Row="7" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My7x7" Grid.Column="7" Grid.Row="7" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My7x8" Grid.Column="8" Grid.Row="7" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My7x9" Grid.Column="9" Grid.Row="7" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My8x0" Grid.Column="0" Grid.Row="8" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My8x1" Grid.Column="1" Grid.Row="8" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My8x2" Grid.Column="2" Grid.Row="8" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My8x3" Grid.Column="3" Grid.Row="8" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My8x4" Grid.Column="4" Grid.Row="8" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My8x5" Grid.Column="5" Grid.Row="8" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My8x6" Grid.Column="6" Grid.Row="8" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My8x7" Grid.Column="7" Grid.Row="8" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My8x8" Grid.Column="8" Grid.Row="8" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My8x9" Grid.Column="9" Grid.Row="8" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My9x0" Grid.Column="0" Grid.Row="9" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My9x1" Grid.Column="1" Grid.Row="9" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My9x2" Grid.Column="2" Grid.Row="9" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My9x3" Grid.Column="3" Grid.Row="9" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My9x4" Grid.Column="4" Grid.Row="9" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My9x5" Grid.Column="5" Grid.Row="9" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My9x6" Grid.Column="6" Grid.Row="9" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My9x7" Grid.Column="7" Grid.Row="9" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My9x8" Grid.Column="8" Grid.Row="9" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+            <Label x:Name="My9x9" Grid.Column="9" Grid.Row="9" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black" AllowDrop="True" Drop="DragAndDrop"/>
+        </Grid>
+        <Image x:Name="Carrier" Margin="455,89,-133,169" Source="Resources/Carrier.png" Stretch="Fill" RenderTransformOrigin="0.1,0.5" MouseRightButtonDown="Image_RightClick" MouseLeftButtonDown="DragMouseDown"/>
+        <Image x:Name="Battleship" Margin="455,223,-108,35" Source="Resources/Battleship.png" Stretch="Fill" RenderTransformOrigin="0.1,0.5" MouseRightButtonDown="Image_RightClick" MouseLeftButtonDown="DragMouseDown"/>
+        <Image x:Name="Cruiser" Margin="455,63,-80,197" Source="Resources/Cruiser.png" Stretch="Fill" RenderTransformOrigin="0.1,0.5" Grid.Row="1" MouseRightButtonDown="Image_RightClick" MouseLeftButtonDown="DragMouseDown"/>
+        <Image x:Name="Submarine" Margin="455,146,-80,113" Source="Resources/Submarine.png" Stretch="Fill" RenderTransformOrigin="0.1,0.5" Grid.Row="1" MouseRightButtonDown="Image_RightClick" MouseLeftButtonDown="DragMouseDown"/>
+        <Image x:Name="Destroyer" Margin="455,223,-54,36" Source="Resources/Destroyer.png" Stretch="Fill" RenderTransformOrigin="0.1,0.5" Grid.Row="1" MouseRightButtonDown="Image_RightClick" MouseLeftButtonDown="DragMouseDown"/>
+        <Label Content="Enemy board:" HorizontalAlignment="Left" Margin="32,115,0,0" VerticalAlignment="Top" Width="86" Height="29"/>
+        <Label Content="Enemy board:" HorizontalAlignment="Left" Margin="32,128,0,0" VerticalAlignment="Top" Width="86" Height="29" Grid.Row="1"/>
+        <Label Content="Enemy board:" HorizontalAlignment="Left" Margin="32,115,0,0" VerticalAlignment="Top" Width="86" Height="29"/>
+        <Label Content="Right click to&#xD;&#xA; switch ship&#xD;&#xA; orientation." HorizontalAlignment="Left" Margin="513,205,-145,0" VerticalAlignment="Top" Width="86" Height="55" Grid.Row="1"/>
+
+    </Grid>
+</UserControl>
